@@ -23,6 +23,9 @@ public class Game {
     }
 
     public void start() {
-        System.out.println("[-]" + gameMode.getGameModeName() + " 게임을 시작합니다.");
+        if (gameMode == null)
+            System.out.println("게임 모드가 설정 되어 있지 않습니다.");
+        else
+            gameMode.start();
     }
 }

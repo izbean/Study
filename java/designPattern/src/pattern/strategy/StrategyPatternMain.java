@@ -12,7 +12,5 @@ public class StrategyPatternMain {
         game.changeGameMode(new HowlingAbyss());
         game.start();
 
-
-
     }
 }
