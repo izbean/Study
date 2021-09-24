@@ -1,6 +1,6 @@
 package pattern.strategy;
 
-public class StrategyPatternMain {
+class Client {
     public static void main(String[] args) {
         Game game = new Game();
         game.setGameMode(new SummonersRift());
@@ -11,6 +11,5 @@ public class StrategyPatternMain {
 
         game.changeGameMode(new HowlingAbyss());
         game.start();
-
     }
 }
