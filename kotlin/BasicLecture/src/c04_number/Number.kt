@@ -26,6 +26,6 @@ fun main() {
 
     val dbl = 12.34
     val iii: Int = dbl.toInt()
-    
+
     println(iii)
 }
