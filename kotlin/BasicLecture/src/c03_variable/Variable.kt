@@ -1,4 +1,4 @@
-package variable
+package c03_variable
 
 fun main(args: Array<String>) {
     // 변수

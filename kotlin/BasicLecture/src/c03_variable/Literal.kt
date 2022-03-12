@@ -1,4 +1,4 @@
-package variable
+package c03_variable
 
 fun main() {
     println(1234) // 정수 리터럴
